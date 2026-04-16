@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Mi Perfil Profesional</title>
+
+    <style>
+      body {
+        font-family: "Times New Roman", Times, serif, sans-serif;
+        text-align: center;
+        background-color: #3e2723; /* Tu tono marrón oscuro de fondo */
+        color: #d7ccc8; /* Un color crema para las letras */
+        padding-top: 50px;
+      }
+
+      img {
+        border-radius: 50%; /* Hace el círculo */
+        border: 5px solid #5d4037; /* Borde marrón */
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Sombra suave */
+        width: 200px; /* Ancho fijo */
+        height: 200px; /* Alto fijo para que sea un círculo perfecto */
+        object-fit: cover; /* Centra y recorta la foto dentro del círculo */
+      }
+
+      .enlaces {
+        margin-top: 30px;
+      }
+
+      .boton {
+        display: inline-block;
+        text-decoration: none;
+        background-color: #795548; /* Marrón botón */
+        color: white;
+        padding: 12px 25px;
+        border-radius: 8px;
+        margin: 10px;
+        font-weight: bold;
+        transition: 0.3s; /* Esto hace que el efecto sea suave */
+      }
+
+      /* --- ¡AQUÍ ESTÁ LA MAGIA QUE MOLABA! --- */
+      .boton:hover {
+        background-color: #a1887f; /* Cambia a un marrón más claro */
+        transform: scale(
+          1.05
+        ); /* Se hace un poco más grande al pasar el ratón */
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Bienvenido a mi espacio</h1>
+
+    <img src="nana.jpg" alt="Foto de perfil" />
+
+    <div class="enlaces">
+      <a href="https://github.com/IPG90" target="_blank" class="boton"
+        >Mi GitHub</a
+      >
+      <a href="mailto:PON_AQUÍ_TU_CORREO@gmail.com" class="boton"
+        >Enviar Email</a
+      >
+    </div>
+  </body>
+</html>
